@@ -33,7 +33,7 @@ export default function Applications() {
 
     useEffect(() => {
         fetchApplications();
-    });
+    }, []);
 
     type OrganizationType = 'civil' | 'chapter' | 'public';
 
