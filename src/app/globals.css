@@ -9,7 +9,7 @@ body {
 }
 
 .forms {
-  background-color: #faf3e4;
+  background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
 }
 
 .form {
@@ -34,4 +34,12 @@ p {
   font-size: 24pt !important;
   line-height: 1.25 !important;
   font-weight: 600 !important;
+}
+
+.application {
+  background-color: #edfcf3;
+}
+
+.application p {
+  font-size: 15px !important;
 }
