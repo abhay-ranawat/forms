@@ -18,5 +18,5 @@ export async function GET() {
 }
 
 export async function POST(){
-  return NextResponse.json({ success: false, error: 'POST not supported' }, { status: 500 });s
+  return NextResponse.json({ success: false, error: 'POST not supported' }, { status: 500 });
 }
